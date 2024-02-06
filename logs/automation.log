@@ -1,40 +1,13 @@
-17:13:26.956 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****starting TC_0001_VerifyUserDetail******
-17:13:27.941 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Clicked on User Profile******
-17:13:38.008 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Get user Information******
-17:13:38.009 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Finishes TC_001_VerifyUserDetail******
-17:13:48.306 [main] INFO  testCases.TC_0002_NewsAndCount - *****starting TC_0002_NewsAndCount******
-17:13:50.448 [main] INFO  testCases.TC_0002_NewsAndCount - *****Printing Total News Count******
-17:13:50.473 [main] INFO  testCases.TC_0002_NewsAndCount - *****News:******
-17:13:50.675 [main] INFO  testCases.TC_0002_NewsAndCount - ******Finished TC_0002_NewsAndCount******
-17:14:45.061 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****starting TC_0001_VerifyUserDetail******
-17:14:45.423 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Clicked on User Profile******
-17:14:45.857 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Get user Information******
-17:14:45.857 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Finishes TC_001_VerifyUserDetail******
-17:14:58.029 [main] INFO  testCases.TC_0002_NewsAndCount - *****starting TC_0002_NewsAndCount******
-17:14:59.806 [main] INFO  testCases.TC_0002_NewsAndCount - *****Printing Total News Count******
-17:14:59.822 [main] INFO  testCases.TC_0002_NewsAndCount - *****News:******
-17:14:59.931 [main] INFO  testCases.TC_0002_NewsAndCount - ******Finished TC_0002_NewsAndCount******
-17:16:03.881 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****starting TC_0001_VerifyUserDetail******
-17:16:04.823 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Clicked on User Profile******
-17:16:05.246 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Get user Information******
-17:16:05.247 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Finishes TC_001_VerifyUserDetail******
-17:16:16.962 [main] INFO  testCases.TC_0002_NewsAndCount - *****starting TC_0002_NewsAndCount******
-17:16:17.667 [main] INFO  testCases.TC_0002_NewsAndCount - *****Printing Total News Count******
-17:16:17.687 [main] INFO  testCases.TC_0002_NewsAndCount - *****News:******
-17:16:17.883 [main] INFO  testCases.TC_0002_NewsAndCount - ******Finished TC_0002_NewsAndCount******
-17:44:47.507 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****starting TC_0001_VerifyUserDetail******
-17:44:48.378 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Clicked on User Profile******
-17:44:49.006 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Get user Information******
-17:44:49.006 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Finishes TC_001_VerifyUserDetail******
-17:45:02.366 [main] INFO  testCases.TC_0002_NewsAndCount - *****starting TC_0002_NewsAndCount******
-17:45:03.492 [main] INFO  testCases.TC_0002_NewsAndCount - *****Printing Total News Count******
-17:45:03.507 [main] INFO  testCases.TC_0002_NewsAndCount - *****News:******
-17:45:03.612 [main] INFO  testCases.TC_0002_NewsAndCount - ******Finished TC_0002_NewsAndCount******
-11:11:16.510 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****starting TC_0001_VerifyUserDetail******
-11:11:16.776 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Clicked on User Profile******
-11:11:17.497 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Get user Information******
-11:11:17.497 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Finishes TC_001_VerifyUserDetail******
-11:11:30.532 [main] INFO  testCases.TC_0002_NewsAndCount - *****starting TC_0002_NewsAndCount******
-11:11:30.668 [main] INFO  testCases.TC_0002_NewsAndCount - *****Printing Total News Count******
-11:11:30.683 [main] INFO  testCases.TC_0002_NewsAndCount - *****News:******
-11:11:30.777 [main] INFO  testCases.TC_0002_NewsAndCount - ******Finished TC_0002_NewsAndCount******
+13:05:52.087 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Finishes TC_001_VerifyUserDetail******
+13:06:06.805 [main] INFO  testCases.TC_0002_NewsAndCount - *****starting TC_0002_NewsAndCount******
+13:06:08.009 [main] INFO  testCases.TC_0002_NewsAndCount - *****Printing Total News Count******
+13:06:08.031 [main] INFO  testCases.TC_0002_NewsAndCount - *****News:******
+13:06:08.212 [main] INFO  testCases.TC_0002_NewsAndCount - ******Finished TC_0002_NewsAndCount******
+13:10:37.947 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****starting TC_0001_VerifyUserDetail******
+13:10:38.339 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Clicked on User Profile******
+13:10:38.870 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Get user Information******
+13:10:38.870 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Finishes TC_001_VerifyUserDetail******
+13:10:54.327 [main] INFO  testCases.TC_0002_NewsAndCount - *****starting TC_0002_NewsAndCount******
+13:10:55.944 [main] INFO  testCases.TC_0002_NewsAndCount - *****Printing Total News Count******
+13:10:55.973 [main] INFO  testCases.TC_0002_NewsAndCount - *****News:******
+13:10:56.186 [main] INFO  testCases.TC_0002_NewsAndCount - ******Finished TC_0002_NewsAndCount******
