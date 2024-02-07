@@ -23,7 +23,7 @@ import org.testng.annotations.Parameters;
 public class BaseClass {
 	
 	static public  WebDriver driver;
-	public Logger logger;//pre defined class come from Log4j2 dependency 
+	//public Logger logger;//pre defined class come from Log4j2 dependency 
 	
 	public Properties p;//to import properties file
 	
@@ -40,7 +40,7 @@ public class BaseClass {
 		
 		
 		//Loading Log4j2 file
-			logger=LogManager.getLogger(this.getClass());//this.getClass will get current test class name running use logj4
+			//logger=LogManager.getLogger(this.getClass());//this.getClass will get current test class name running use logj4
 			
 			//launch based on condition
 			switch(br.toLowerCase())
