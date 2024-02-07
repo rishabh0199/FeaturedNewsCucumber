@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.TC_0001_VerifyUserDetail">
+      <class name="testCases.TC_0004_ClickEachNewsAndPrint">
         <methods>
-          <include name="verify_User_Details"/>
+          <include name="clickEachNews"/>
           <include name="driverSetup"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.TC_0001_VerifyUserDetail -->
+      </class> <!-- testCases.TC_0004_ClickEachNewsAndPrint -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

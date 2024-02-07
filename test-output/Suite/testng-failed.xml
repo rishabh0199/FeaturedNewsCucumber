@@ -4,12 +4,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_0002_NewsAndCount">
+      <class name="testCases.TC_0005_AppsAndTools">
         <methods>
+          <include name="appsAndTools"/>
           <include name="driverSetup"/>
-          <include name="countNews"/>
+          <include name="tearDown"/>
         </methods>
-      </class> <!-- testCases.TC_0002_NewsAndCount -->
+      </class> <!-- testCases.TC_0005_AppsAndTools -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

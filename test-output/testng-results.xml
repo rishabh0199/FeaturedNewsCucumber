@@ -1,23 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-05T11:11:03 IST" name="Suite" finished-at="2024-02-05T11:11:32 IST" duration-ms="28993">
+  <suite started-at="2024-02-08T02:09:43 IST" name="Suite" finished-at="2024-02-08T02:10:21 IST" duration-ms="37717">
     <groups>
-      <group name="regression">
-        <method signature="TC_0002_NewsAndCount.countNews()[pri:2, instance:testCases.TC_0002_NewsAndCount@273e7444]" name="countNews" class="testCases.TC_0002_NewsAndCount"/>
-      </group> <!-- regression -->
-      <group name="sanity">
-        <method signature="TC_0001_VerifyUserDetail.verify_User_Details()[pri:1, instance:testCases.TC_0001_VerifyUserDetail@48aca48b]" name="verify_User_Details" class="testCases.TC_0001_VerifyUserDetail"/>
-      </group> <!-- sanity -->
-      <group name="master">
-        <method signature="TC_0001_VerifyUserDetail.verify_User_Details()[pri:1, instance:testCases.TC_0001_VerifyUserDetail@48aca48b]" name="verify_User_Details" class="testCases.TC_0001_VerifyUserDetail"/>
-        <method signature="TC_0002_NewsAndCount.countNews()[pri:2, instance:testCases.TC_0002_NewsAndCount@273e7444]" name="countNews" class="testCases.TC_0002_NewsAndCount"/>
-      </group> <!-- master -->
     </groups>
-    <test started-at="2024-02-05T11:11:03 IST" name="Test" finished-at="2024-02-05T11:11:32 IST" duration-ms="28993">
-      <class name="testCases.TC_0002_NewsAndCount">
-        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:testCases.TC_0002_NewsAndCount@273e7444]" started-at="2024-02-05T11:11:18 IST" name="driverSetup" finished-at="2024-02-05T11:11:30 IST" duration-ms="11725" status="PASS">
+    <test started-at="2024-02-08T02:09:43 IST" name="Test" finished-at="2024-02-08T02:10:21 IST" duration-ms="37717">
+      <class name="testCases.TC_0005_AppsAndTools">
+        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:testCases.TC_0005_AppsAndTools@130c12b7]" started-at="2024-02-08T02:09:43 IST" name="driverSetup" finished-at="2024-02-08T02:10:04 IST" duration-ms="20655" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -28,36 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method signature="countNews()[pri:2, instance:testCases.TC_0002_NewsAndCount@273e7444]" started-at="2024-02-05T11:11:30 IST" name="countNews" finished-at="2024-02-05T11:11:30 IST" duration-ms="247" status="PASS">
+        <test-method signature="appsAndTools()[pri:0, instance:testCases.TC_0005_AppsAndTools@130c12b7]" started-at="2024-02-08T02:10:04 IST" name="appsAndTools" finished-at="2024-02-08T02:10:19 IST" duration-ms="15763" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- countNews -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0002_NewsAndCount@273e7444]" started-at="2024-02-05T11:11:30 IST" name="tearDown" finished-at="2024-02-05T11:11:32 IST" duration-ms="1253" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_0002_NewsAndCount -->
-      <class name="testCases.TC_0001_VerifyUserDetail">
-        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:testCases.TC_0001_VerifyUserDetail@48aca48b]" started-at="2024-02-05T11:11:03 IST" name="driverSetup" finished-at="2024-02-05T11:11:16 IST" duration-ms="13009" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- driverSetup -->
-        <test-method signature="verify_User_Details()[pri:1, instance:testCases.TC_0001_VerifyUserDetail@48aca48b]" started-at="2024-02-05T11:11:16 IST" name="verify_User_Details" finished-at="2024-02-05T11:11:17 IST" duration-ms="1002" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verify_User_Details -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0001_VerifyUserDetail@48aca48b]" started-at="2024-02-05T11:11:17 IST" name="tearDown" finished-at="2024-02-05T11:11:18 IST" duration-ms="1262" status="PASS">
+        </test-method> <!-- appsAndTools -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0005_AppsAndTools@130c12b7]" started-at="2024-02-08T02:10:19 IST" name="tearDown" finished-at="2024-02-08T02:10:21 IST" duration-ms="1253" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC_0001_VerifyUserDetail -->
+      </class> <!-- testCases.TC_0005_AppsAndTools -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

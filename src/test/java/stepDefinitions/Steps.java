@@ -28,11 +28,6 @@ public class Steps extends BaseClass{
 		bs.driverSetup("chrome");
 	}
 
-	@When("Click on Profile")
-	public void click_on_profile() {
-		TC_0001_VerifyUserDetail d = new TC_0001_VerifyUserDetail();
-		d.verify_User_Details();
-	}
 
 	@Then("Capture and print User Name and Email")
 	public void capture_and_print_user_name_and_email() {
