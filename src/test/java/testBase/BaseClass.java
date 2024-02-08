@@ -25,10 +25,13 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+
 public class BaseClass {
 	static Logger logger;
 	
-	static public  WebDriver driver;
+	public static WebDriver driver;
 	//public Logger logger;//pre defined class come from Log4j2 dependency 
 	
 	public Properties p;//to import properties file
@@ -62,6 +65,7 @@ public class BaseClass {
 			driver.get(p.getProperty("appURL"));
 			driver.manage().window().maximize();
 }
+	
 	@AfterTest(groups= {"sanity","regression","master"})
 	public void tearDown()
 	{

@@ -11,13 +11,15 @@ import io.cucumber.junit.CucumberOptions;
 //if you have some more feature file put , and give name
 //glue keyword used to step definition file
 //rerun use to run the failure test cases
+
 @RunWith(Cucumber.class)
 @CucumberOptions( 
 		features= {".//FeatureFiles/News.feature"},
 		glue="stepDefinitions",
-		plugin= {"pretty", "html:reports/myreport.html",
+		plugin= {"pretty",
+				"html:reports/myreport.html",
 				"rerun:target/rerun.txt",
-				//"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
+				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
 		}
 		//actual execution not done if dry run is true
 		//dryRun=false,//to check every methods in feature file is implemented in  step definition

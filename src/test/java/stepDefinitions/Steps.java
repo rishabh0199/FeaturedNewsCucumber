@@ -15,8 +15,11 @@ import pageObjects.BeCognizantHome;
 import testBase.BaseClass;
 import testCases.TC_0001_VerifyUserDetail;
 import testCases.TC_0002_NewsAndCount;
+import testCases.TC_0003_CompareHeadingwithToolTip;
+import testCases.TC_0004_ClickEachNewsAndPrint;
+import testCases.TC_0005_AppsAndTools;
 
-public class Steps extends BaseClass{
+public class Steps{
 
 	
 	@Given("User is already logined on the BeCognizant Homepage")
@@ -39,6 +42,25 @@ public class Steps extends BaseClass{
 		TC_0002_NewsAndCount d = new TC_0002_NewsAndCount();
 		d.countNews();
 
+	}
+	
+	@Then("Compare News With Tool Tip")
+	public void compare_news_with_tool_tip() {
+		TC_0003_CompareHeadingwithToolTip d = new TC_0003_CompareHeadingwithToolTip();
+		d.cmpTooltip();
+	}
+
+	@Then("Click Each News and Print and back to home page verify home page")
+	public void click_each_news_and_print_and_back_to_home_page_verify_home_page() throws InterruptedException {
+		TC_0004_ClickEachNewsAndPrint d = new TC_0004_ClickEachNewsAndPrint();
+		d.clickEachNews();
+	}
+
+	@Then("Print All Apps and Tools Available On Home Page")
+	public void print_all_apps_and_tools_available_on_home_page() throws InterruptedException {
+		TC_0005_AppsAndTools d = new TC_0005_AppsAndTools();
+		d.appsAndTools();
+	
 	}
 
 }

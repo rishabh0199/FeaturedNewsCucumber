@@ -1,21 +1,22 @@
-13:05:52.087 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Finishes TC_001_VerifyUserDetail******
-13:06:06.805 [main] INFO  testCases.TC_0002_NewsAndCount - *****starting TC_0002_NewsAndCount******
-13:06:08.009 [main] INFO  testCases.TC_0002_NewsAndCount - *****Printing Total News Count******
-13:06:08.031 [main] INFO  testCases.TC_0002_NewsAndCount - *****News:******
-13:06:08.212 [main] INFO  testCases.TC_0002_NewsAndCount - ******Finished TC_0002_NewsAndCount******
-13:10:37.947 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****starting TC_0001_VerifyUserDetail******
-13:10:38.339 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Clicked on User Profile******
-13:10:38.870 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Get user Information******
-13:10:38.870 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Finishes TC_001_VerifyUserDetail******
-13:10:54.327 [main] INFO  testCases.TC_0002_NewsAndCount - *****starting TC_0002_NewsAndCount******
-13:10:55.944 [main] INFO  testCases.TC_0002_NewsAndCount - *****Printing Total News Count******
-13:10:55.973 [main] INFO  testCases.TC_0002_NewsAndCount - *****News:******
-13:10:56.186 [main] INFO  testCases.TC_0002_NewsAndCount - ******Finished TC_0002_NewsAndCount******
-16:48:54.283 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****starting TC_0001_VerifyUserDetail******
-16:48:54.649 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Clicked on User Profile******
-16:49:04.699 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Get user Information******
-16:49:04.699 [main] INFO  testCases.TC_0001_VerifyUserDetail - *****Finishes TC_001_VerifyUserDetail******
-16:49:18.063 [main] INFO  testCases.TC_0002_NewsAndCount - *****starting TC_0002_NewsAndCount******
-16:49:19.085 [main] INFO  testCases.TC_0002_NewsAndCount - *****Printing Total News Count******
-16:49:19.099 [main] INFO  testCases.TC_0002_NewsAndCount - *****News:******
-16:49:19.182 [main] INFO  testCases.TC_0002_NewsAndCount - ******Finished TC_0002_NewsAndCount******
+23:00:28.184 [main] INFO  testBase.BaseClass - *****starting TC_0001_VerifyUserDetail******
+23:00:37.547 [main] INFO  testBase.BaseClass - **********Clicked on User Profile************
+23:00:38.189 [main] INFO  testBase.BaseClass - **********Get user Information************
+23:00:38.190 [main] INFO  testBase.BaseClass - **********Finishes TC_001_VerifyUserDetail************
+23:00:38.192 [main] INFO  testBase.BaseClass - *****starting TC_0002_NewsAndCount******
+23:00:38.581 [main] INFO  testBase.BaseClass - *****Printing Total News Count******
+23:00:38.657 [main] INFO  testBase.BaseClass - **********News:************
+23:00:38.854 [main] INFO  testBase.BaseClass - *****Finished TC_0002_NewsAndCount******
+23:00:38.855 [main] INFO  testBase.BaseClass - **********Starting TC_0003_CompareHeadingwithToolTip***************
+23:00:39.197 [main] INFO  testBase.BaseClass - ************
+23:00:39.619 [main] INFO  testBase.BaseClass - **********Finished TC_0003_CompareHeadingwithToolTip***************
+23:02:48.864 [main] INFO  testBase.BaseClass - *****starting TC_0001_VerifyUserDetail******
+23:02:58.317 [main] INFO  testBase.BaseClass - **********Clicked on User Profile************
+23:02:59.697 [main] INFO  testBase.BaseClass - **********Get user Information************
+23:02:59.698 [main] INFO  testBase.BaseClass - **********Finishes TC_001_VerifyUserDetail************
+23:02:59.700 [main] INFO  testBase.BaseClass - *****starting TC_0002_NewsAndCount******
+23:03:00.051 [main] INFO  testBase.BaseClass - *****Printing Total News Count******
+23:03:00.095 [main] INFO  testBase.BaseClass - **********News:************
+23:03:00.474 [main] INFO  testBase.BaseClass - *****Finished TC_0002_NewsAndCount******
+23:03:00.476 [main] INFO  testBase.BaseClass - **********Starting TC_0003_CompareHeadingwithToolTip***************
+23:03:01.229 [main] INFO  testBase.BaseClass - ************
+23:03:01.606 [main] INFO  testBase.BaseClass - **********Finished TC_0003_CompareHeadingwithToolTip***************

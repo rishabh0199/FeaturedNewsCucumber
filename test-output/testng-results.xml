@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-08T12:07:59 IST" name="Suite" finished-at="2024-02-08T12:11:35 IST" duration-ms="215882">
+  <suite started-at="2024-02-08T23:24:52 IST" name="Suite" finished-at="2024-02-08T23:26:25 IST" duration-ms="92211">
     <groups>
       <group name="regression">
-        <method signature="TC_Combined.countNews()[pri:2, instance:testCases.TC_Combined@25641d39]" name="countNews" class="testCases.TC_Combined"/>
+        <method signature="TC_Combined.countNews()[pri:2, instance:testCases.TC_Combined@4d154ccd]" name="countNews" class="testCases.TC_Combined"/>
       </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TC_Combined.appsAndTools()[pri:5, instance:testCases.TC_Combined@25641d39]" name="appsAndTools" class="testCases.TC_Combined"/>
-        <method signature="TC_Combined.clickEachNews()[pri:4, instance:testCases.TC_Combined@25641d39]" name="clickEachNews" class="testCases.TC_Combined"/>
-        <method signature="TC_Combined.cmpTooltip()[pri:3, instance:testCases.TC_Combined@25641d39]" name="cmpTooltip" class="testCases.TC_Combined"/>
-        <method signature="TC_Combined.verify_User_Details()[pri:1, instance:testCases.TC_Combined@25641d39]" name="verify_User_Details" class="testCases.TC_Combined"/>
+        <method signature="TC_Combined.appsAndTools()[pri:5, instance:testCases.TC_Combined@4d154ccd]" name="appsAndTools" class="testCases.TC_Combined"/>
+        <method signature="TC_Combined.clickEachNews()[pri:4, instance:testCases.TC_Combined@4d154ccd]" name="clickEachNews" class="testCases.TC_Combined"/>
+        <method signature="TC_Combined.cmpTooltip()[pri:3, instance:testCases.TC_Combined@4d154ccd]" name="cmpTooltip" class="testCases.TC_Combined"/>
+        <method signature="TC_Combined.verify_User_Details()[pri:1, instance:testCases.TC_Combined@4d154ccd]" name="verify_User_Details" class="testCases.TC_Combined"/>
       </group> <!-- sanity -->
       <group name="master">
-        <method signature="TC_Combined.appsAndTools()[pri:5, instance:testCases.TC_Combined@25641d39]" name="appsAndTools" class="testCases.TC_Combined"/>
-        <method signature="TC_Combined.clickEachNews()[pri:4, instance:testCases.TC_Combined@25641d39]" name="clickEachNews" class="testCases.TC_Combined"/>
-        <method signature="TC_Combined.cmpTooltip()[pri:3, instance:testCases.TC_Combined@25641d39]" name="cmpTooltip" class="testCases.TC_Combined"/>
-        <method signature="TC_Combined.countNews()[pri:2, instance:testCases.TC_Combined@25641d39]" name="countNews" class="testCases.TC_Combined"/>
-        <method signature="TC_Combined.verify_User_Details()[pri:1, instance:testCases.TC_Combined@25641d39]" name="verify_User_Details" class="testCases.TC_Combined"/>
+        <method signature="TC_Combined.appsAndTools()[pri:5, instance:testCases.TC_Combined@4d154ccd]" name="appsAndTools" class="testCases.TC_Combined"/>
+        <method signature="TC_Combined.clickEachNews()[pri:4, instance:testCases.TC_Combined@4d154ccd]" name="clickEachNews" class="testCases.TC_Combined"/>
+        <method signature="TC_Combined.cmpTooltip()[pri:3, instance:testCases.TC_Combined@4d154ccd]" name="cmpTooltip" class="testCases.TC_Combined"/>
+        <method signature="TC_Combined.countNews()[pri:2, instance:testCases.TC_Combined@4d154ccd]" name="countNews" class="testCases.TC_Combined"/>
+        <method signature="TC_Combined.verify_User_Details()[pri:1, instance:testCases.TC_Combined@4d154ccd]" name="verify_User_Details" class="testCases.TC_Combined"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-02-08T12:07:59 IST" name="Test" finished-at="2024-02-08T12:11:35 IST" duration-ms="215882">
+    <test started-at="2024-02-08T23:24:52 IST" name="Test" finished-at="2024-02-08T23:26:25 IST" duration-ms="92211">
       <class name="testCases.TC_Combined">
-        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:testCases.TC_Combined@25641d39]" started-at="2024-02-08T12:07:59 IST" name="driverSetup" finished-at="2024-02-08T12:09:36 IST" duration-ms="96738" status="PASS">
+        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:testCases.TC_Combined@4d154ccd]" started-at="2024-02-08T23:24:53 IST" name="driverSetup" finished-at="2024-02-08T23:25:11 IST" duration-ms="17307" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,27 +34,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method signature="verify_User_Details()[pri:1, instance:testCases.TC_Combined@25641d39]" started-at="2024-02-08T12:09:36 IST" name="verify_User_Details" finished-at="2024-02-08T12:09:55 IST" duration-ms="19356" status="PASS">
+        <test-method signature="verify_User_Details()[pri:1, instance:testCases.TC_Combined@4d154ccd]" started-at="2024-02-08T23:25:11 IST" name="verify_User_Details" finished-at="2024-02-08T23:25:21 IST" duration-ms="10049" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_User_Details -->
-        <test-method signature="countNews()[pri:2, instance:testCases.TC_Combined@25641d39]" started-at="2024-02-08T12:09:55 IST" name="countNews" finished-at="2024-02-08T12:09:55 IST" duration-ms="197" status="PASS">
+        <test-method signature="countNews()[pri:2, instance:testCases.TC_Combined@4d154ccd]" started-at="2024-02-08T23:25:21 IST" name="countNews" finished-at="2024-02-08T23:25:21 IST" duration-ms="712" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- countNews -->
-        <test-method signature="cmpTooltip()[pri:3, instance:testCases.TC_Combined@25641d39]" started-at="2024-02-08T12:09:55 IST" name="cmpTooltip" finished-at="2024-02-08T12:09:55 IST" duration-ms="179" status="PASS">
+        <test-method signature="cmpTooltip()[pri:3, instance:testCases.TC_Combined@4d154ccd]" started-at="2024-02-08T23:25:21 IST" name="cmpTooltip" finished-at="2024-02-08T23:25:22 IST" duration-ms="594" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cmpTooltip -->
-        <test-method signature="clickEachNews()[pri:4, instance:testCases.TC_Combined@25641d39]" started-at="2024-02-08T12:09:55 IST" name="clickEachNews" finished-at="2024-02-08T12:11:23 IST" duration-ms="87698" status="PASS">
+        <test-method signature="clickEachNews()[pri:4, instance:testCases.TC_Combined@4d154ccd]" started-at="2024-02-08T23:25:22 IST" name="clickEachNews" finished-at="2024-02-08T23:26:12 IST" duration-ms="50035" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickEachNews -->
-        <test-method signature="appsAndTools()[pri:5, instance:testCases.TC_Combined@25641d39]" started-at="2024-02-08T12:11:23 IST" name="appsAndTools" finished-at="2024-02-08T12:11:34 IST" duration-ms="10533" status="PASS">
+        <test-method signature="appsAndTools()[pri:5, instance:testCases.TC_Combined@4d154ccd]" started-at="2024-02-08T23:26:12 IST" name="appsAndTools" finished-at="2024-02-08T23:26:23 IST" duration-ms="11391" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- appsAndTools -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_Combined@25641d39]" started-at="2024-02-08T12:11:34 IST" name="tearDown" finished-at="2024-02-08T12:11:35 IST" duration-ms="1137" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_Combined@4d154ccd]" started-at="2024-02-08T23:26:23 IST" name="tearDown" finished-at="2024-02-08T23:26:25 IST" duration-ms="1268" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

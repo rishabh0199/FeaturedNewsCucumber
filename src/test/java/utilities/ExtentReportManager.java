@@ -47,6 +47,7 @@ public class ExtentReportManager implements ITestListener {
 		//common info:-
 		extent = new ExtentReports();
 		extent.attachReporter(sparkReporter);
+		extent.setSystemInfo("Tester Name", "Rishabh Yadav");
 		extent.setSystemInfo("Application", "BeCognizant");
 		extent.setSystemInfo("Module", "BeCognizant");
 		extent.setSystemInfo("Sub Module", "Featured news");
