@@ -11,7 +11,7 @@ public class TC_0004_ClickEachNewsAndPrint extends BaseClass {
 	JavascriptExecutor js = (JavascriptExecutor)driver;
 	@Test
 	public void clickEachNews() throws InterruptedException {
-		System.out.println("========================Clicking each news and Verifying it==============================================");
+		System.out.println("==================================Clicking each news and Verifying it=====================================================");
 		
 		BeCognizantHome news = new BeCognizantHome(driver);
 		List<WebElement> allnews=news.getAllNews();

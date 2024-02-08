@@ -21,9 +21,7 @@ public class Steps extends BaseClass{
 	
 	@Given("User is already logined on the BeCognizant Homepage")
 	public void user_is_already_logined_on_the_be_cognizant_homepage() throws IOException {
-//		Scanner sc = new Scanner(System.in);
-//		System.out.println("enter the browser you want to use");
-//		String br = sc.nextLine();
+
 		BaseClass bs = new BaseClass();
 		bs.driverSetup("chrome");
 	}

@@ -12,11 +12,12 @@ public class TC_0003_CompareHeadingwithToolTip extends BaseClass {
 	
 	@Test
 	public void cmpTooltip(){
-	System.out.println("=====================Comparing with Tool Tip============================");
+		BaseClass.getLogger().info("**********Starting TC_0003_CompareHeadingwithToolTip***************");
+	System.out.println("===================================Comparing with Tool Tip==============================================");
 	
 	BeCognizantHome tt = new BeCognizantHome(driver);
 	List<WebElement> allNews = tt.getAllNews(); 
-	
+	BaseClass.getLogger().info("************");
 	for(WebElement elem:allNews)
 	{
 		String news = elem.getText();
@@ -32,6 +33,7 @@ public class TC_0003_CompareHeadingwithToolTip extends BaseClass {
 			System.out.println("==============News not matching with Tool Tip==========");
 		}
 	}
+	BaseClass.getLogger().info("**********Finished TC_0003_CompareHeadingwithToolTip***************");
 	}
 
 }

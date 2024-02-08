@@ -9,21 +9,22 @@ public class TC_0001_VerifyUserDetail extends BaseClass{
 	public void verify_User_Details()
 	{
 		//add all events(click and all) to log file
-		//logger.info("*****starting TC_0001_VerifyUserDetail******");
+		BaseClass.getLogger().info("*****starting TC_0001_VerifyUserDetail******");
 		try {
 		BeCognizantHome user = new BeCognizantHome(driver);
 		user.clickUserProfile();
-		//logger.info("*****Clicked on User Profile******");
+		BaseClass.getLogger().info("**********Clicked on User Profile************");
 
 		
 		UserProfile details = new UserProfile(driver);
 		details.getUserInformation();
-		//logger.info("*****Get user Information******");
+		
+		BaseClass.getLogger().info("**********Get user Information************");
 		}catch(Exception e)
 		{
-			//logger.error("test Failed......");
+			BaseClass.getLogger().info("test Failed......");
 		}
-	//	logger.info("*****Finishes TC_001_VerifyUserDetail******");
+		BaseClass.getLogger().info("**********Finishes TC_001_VerifyUserDetail************");
 	}
 	
 
