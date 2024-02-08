@@ -20,3 +20,25 @@
 23:03:00.476 [main] INFO  testBase.BaseClass - **********Starting TC_0003_CompareHeadingwithToolTip***************
 23:03:01.229 [main] INFO  testBase.BaseClass - ************
 23:03:01.606 [main] INFO  testBase.BaseClass - **********Finished TC_0003_CompareHeadingwithToolTip***************
+23:38:19.446 [main] INFO  testBase.BaseClass - *****starting TC_0001_VerifyUserDetail******
+23:38:28.806 [main] INFO  testBase.BaseClass - **********Clicked on User Profile************
+23:38:29.728 [main] INFO  testBase.BaseClass - **********Get user Information************
+23:38:29.728 [main] INFO  testBase.BaseClass - **********Finishes TC_001_VerifyUserDetail************
+23:38:29.763 [main] INFO  testBase.BaseClass - *****starting TC_0002_NewsAndCount******
+23:38:30.033 [main] INFO  testBase.BaseClass - *****Printing Total News Count******
+23:38:30.059 [main] INFO  testBase.BaseClass - **********News:************
+23:38:30.280 [main] INFO  testBase.BaseClass - *****Finished TC_0002_NewsAndCount******
+23:38:30.313 [main] INFO  testBase.BaseClass - **********Starting TC_0003_CompareHeadingwithToolTip***************
+23:38:30.613 [main] INFO  testBase.BaseClass - ************
+23:38:31.301 [main] INFO  testBase.BaseClass - **********Finished TC_0003_CompareHeadingwithToolTip***************
+00:43:46.871 [main] INFO  testBase.BaseClass - *****starting TC_0001_VerifyUserDetail******
+00:43:56.262 [main] INFO  testBase.BaseClass - **********Clicked on User Profile************
+00:43:57.288 [main] INFO  testBase.BaseClass - **********Get user Information************
+00:43:57.290 [main] INFO  testBase.BaseClass - **********Finishes TC_001_VerifyUserDetail************
+00:43:57.302 [main] INFO  testBase.BaseClass - *****starting TC_0002_NewsAndCount******
+00:43:57.937 [main] INFO  testBase.BaseClass - *****Printing Total News Count******
+00:43:57.968 [main] INFO  testBase.BaseClass - **********News:************
+00:43:58.218 [main] INFO  testBase.BaseClass - *****Finished TC_0002_NewsAndCount******
+00:43:58.228 [main] INFO  testBase.BaseClass - **********Starting TC_0003_CompareHeadingwithToolTip***************
+00:43:58.477 [main] INFO  testBase.BaseClass - ************
+00:43:58.937 [main] INFO  testBase.BaseClass - **********Finished TC_0003_CompareHeadingwithToolTip***************
