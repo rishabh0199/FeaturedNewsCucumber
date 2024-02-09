@@ -1,6 +1,7 @@
 package testBase;
 import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
@@ -105,6 +106,17 @@ public class BaseClass {
 	{		 
 		logger=LogManager.getLogger(); //Log4j
 		return logger;
+	}
+	
+	public static void writeToFile(String fileName,String content) throws IOException
+	{
+		try(FileWriter fileWriter = new FileWriter(fileName))
+		{
+			fileWriter.write(content);
+		}catch(IOException e)
+		{
+			e.printStackTrace();
+		}
 	}
 	
 	

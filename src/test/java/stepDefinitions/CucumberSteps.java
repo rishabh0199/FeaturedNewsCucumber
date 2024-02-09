@@ -51,7 +51,7 @@ public class CucumberSteps{
 	}
 
 	@Then("Click Each News and Print and back to home page verify home page")
-	public void click_each_news_and_print_and_back_to_home_page_verify_home_page() throws InterruptedException {
+	public void click_each_news_and_print_and_back_to_home_page_verify_home_page() throws InterruptedException, IOException {
 		TC_0004_ClickEachNewsAndPrint d = new TC_0004_ClickEachNewsAndPrint();
 		d.clickEachNews();
 	}

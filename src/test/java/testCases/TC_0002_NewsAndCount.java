@@ -14,15 +14,23 @@ public class TC_0002_NewsAndCount extends BaseClass {
 		BaseClass.getLogger().info("*****starting TC_0002_NewsAndCount******");
 		BeCognizantHome news=new BeCognizantHome(driver);
 		List<WebElement> allnews=news.getAllNews();
+		System.out.println("---------------------------------------------------------------------------");
 		BaseClass.getLogger().info("*****Printing Total News Count******");
+		System.out.println("Total Available News:");
 		System.out.println("Total News: "+allnews.size());
 		BaseClass.getLogger().info("**********News:************");
+		System.out.println();
+		System.out.println();
+		System.out.println("News Headings:");
 		for(WebElement elem:allnews)
 		{
 			System.out.println(elem.getText());
 		}
 		System.out.println();
 		BaseClass.getLogger().info("*****Finished TC_0002_NewsAndCount******");
+		System.out.println("---------------------------------------------------------------------------");
+		System.out.println();
+		System.out.println();
 	}
 
 }

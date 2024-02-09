@@ -1,0 +1,55 @@
+23:00:28.184 [main] INFO  testBase.BaseClass - *****starting TC_0001_VerifyUserDetail******
+23:00:37.547 [main] INFO  testBase.BaseClass - **********Clicked on User Profile************
+23:00:38.189 [main] INFO  testBase.BaseClass - **********Get user Information************
+23:00:38.190 [main] INFO  testBase.BaseClass - **********Finishes TC_001_VerifyUserDetail************
+23:00:38.192 [main] INFO  testBase.BaseClass - *****starting TC_0002_NewsAndCount******
+23:00:38.581 [main] INFO  testBase.BaseClass - *****Printing Total News Count******
+23:00:38.657 [main] INFO  testBase.BaseClass - **********News:************
+23:00:38.854 [main] INFO  testBase.BaseClass - *****Finished TC_0002_NewsAndCount******
+23:00:38.855 [main] INFO  testBase.BaseClass - **********Starting TC_0003_CompareHeadingwithToolTip***************
+23:00:39.197 [main] INFO  testBase.BaseClass - ************
+23:00:39.619 [main] INFO  testBase.BaseClass - **********Finished TC_0003_CompareHeadingwithToolTip***************
+23:02:48.864 [main] INFO  testBase.BaseClass - *****starting TC_0001_VerifyUserDetail******
+23:02:58.317 [main] INFO  testBase.BaseClass - **********Clicked on User Profile************
+23:02:59.697 [main] INFO  testBase.BaseClass - **********Get user Information************
+23:02:59.698 [main] INFO  testBase.BaseClass - **********Finishes TC_001_VerifyUserDetail************
+23:02:59.700 [main] INFO  testBase.BaseClass - *****starting TC_0002_NewsAndCount******
+23:03:00.051 [main] INFO  testBase.BaseClass - *****Printing Total News Count******
+23:03:00.095 [main] INFO  testBase.BaseClass - **********News:************
+23:03:00.474 [main] INFO  testBase.BaseClass - *****Finished TC_0002_NewsAndCount******
+23:03:00.476 [main] INFO  testBase.BaseClass - **********Starting TC_0003_CompareHeadingwithToolTip***************
+23:03:01.229 [main] INFO  testBase.BaseClass - ************
+23:03:01.606 [main] INFO  testBase.BaseClass - **********Finished TC_0003_CompareHeadingwithToolTip***************
+23:38:19.446 [main] INFO  testBase.BaseClass - *****starting TC_0001_VerifyUserDetail******
+23:38:28.806 [main] INFO  testBase.BaseClass - **********Clicked on User Profile************
+23:38:29.728 [main] INFO  testBase.BaseClass - **********Get user Information************
+23:38:29.728 [main] INFO  testBase.BaseClass - **********Finishes TC_001_VerifyUserDetail************
+23:38:29.763 [main] INFO  testBase.BaseClass - *****starting TC_0002_NewsAndCount******
+23:38:30.033 [main] INFO  testBase.BaseClass - *****Printing Total News Count******
+23:38:30.059 [main] INFO  testBase.BaseClass - **********News:************
+23:38:30.280 [main] INFO  testBase.BaseClass - *****Finished TC_0002_NewsAndCount******
+23:38:30.313 [main] INFO  testBase.BaseClass - **********Starting TC_0003_CompareHeadingwithToolTip***************
+23:38:30.613 [main] INFO  testBase.BaseClass - ************
+23:38:31.301 [main] INFO  testBase.BaseClass - **********Finished TC_0003_CompareHeadingwithToolTip***************
+00:43:46.871 [main] INFO  testBase.BaseClass - *****starting TC_0001_VerifyUserDetail******
+00:43:56.262 [main] INFO  testBase.BaseClass - **********Clicked on User Profile************
+00:43:57.288 [main] INFO  testBase.BaseClass - **********Get user Information************
+00:43:57.290 [main] INFO  testBase.BaseClass - **********Finishes TC_001_VerifyUserDetail************
+00:43:57.302 [main] INFO  testBase.BaseClass - *****starting TC_0002_NewsAndCount******
+00:43:57.937 [main] INFO  testBase.BaseClass - *****Printing Total News Count******
+00:43:57.968 [main] INFO  testBase.BaseClass - **********News:************
+00:43:58.218 [main] INFO  testBase.BaseClass - *****Finished TC_0002_NewsAndCount******
+00:43:58.228 [main] INFO  testBase.BaseClass - **********Starting TC_0003_CompareHeadingwithToolTip***************
+00:43:58.477 [main] INFO  testBase.BaseClass - ************
+00:43:58.937 [main] INFO  testBase.BaseClass - **********Finished TC_0003_CompareHeadingwithToolTip***************
+00:31:23.587 [main] INFO  testBase.BaseClass - *****starting TC_0001_VerifyUserDetail******
+00:31:33.074 [main] INFO  testBase.BaseClass - **********Clicked on User Profile************
+00:31:33.894 [main] INFO  testBase.BaseClass - **********Get user Information************
+00:31:33.894 [main] INFO  testBase.BaseClass - **********Finishes TC_001_VerifyUserDetail************
+00:31:33.944 [main] INFO  testBase.BaseClass - *****starting TC_0002_NewsAndCount******
+00:31:34.187 [main] INFO  testBase.BaseClass - *****Printing Total News Count******
+00:31:34.212 [main] INFO  testBase.BaseClass - **********News:************
+00:31:34.410 [main] INFO  testBase.BaseClass - *****Finished TC_0002_NewsAndCount******
+00:31:34.419 [main] INFO  testBase.BaseClass - **********Starting TC_0003_CompareHeadingwithToolTip***************
+00:31:34.971 [main] INFO  testBase.BaseClass - ************
+00:31:35.362 [main] INFO  testBase.BaseClass - **********Finished TC_0003_CompareHeadingwithToolTip***************

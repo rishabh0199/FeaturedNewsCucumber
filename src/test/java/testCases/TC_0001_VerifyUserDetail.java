@@ -14,8 +14,8 @@ public class TC_0001_VerifyUserDetail extends BaseClass{
 		BeCognizantHome user = new BeCognizantHome(driver);
 		user.clickUserProfile();
 		BaseClass.getLogger().info("**********Clicked on User Profile************");
-
-		
+		System.out.println("---------------------------------------------------------------------------");
+		System.out.println("User Information:");
 		UserProfile details = new UserProfile(driver);
 		details.getUserInformation();
 		
@@ -25,6 +25,9 @@ public class TC_0001_VerifyUserDetail extends BaseClass{
 			BaseClass.getLogger().info("test Failed......");
 		}
 		BaseClass.getLogger().info("**********Finishes TC_001_VerifyUserDetail************");
+		System.out.println("---------------------------------------------------------------------------");
+		System.out.println();
+		System.out.println();
 	}
 	
 
