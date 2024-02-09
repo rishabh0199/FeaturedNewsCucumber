@@ -19,7 +19,7 @@ import testCases.TC_0003_CompareHeadingwithToolTip;
 import testCases.TC_0004_ClickEachNewsAndPrint;
 import testCases.TC_0005_AppsAndTools;
 
-public class Steps{
+public class CucumberSteps{
 
 	
 	@Given("User is already logined on the BeCognizant Homepage")

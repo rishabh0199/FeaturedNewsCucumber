@@ -30,7 +30,7 @@ import io.cucumber.junit.CucumberOptions;
 
 		)
 
-public class TestRun {
+public class CucumberTestRun {
 	
 
 }
