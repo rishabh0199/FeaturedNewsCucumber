@@ -22,7 +22,8 @@
           <version>3.2.5</version>
           <configuration>
 			  <suiteXmlFiles>
-				  <suiteXmlFile>combinedTestNG.xml</suiteXmlFile>
+				 <!-- <suiteXmlFile>combinedTestNG.xml</suiteXmlFile> -->
+				 <suiteXmlFile>Master.xml</suiteXmlFile>
 			  </suiteXmlFiles>
 		  </configuration>
         </plugin> 	 
