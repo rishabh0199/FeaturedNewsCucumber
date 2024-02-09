@@ -42,6 +42,10 @@ public class TC_0004_ClickEachNewsAndPrint extends BaseClass {
 				System.out.println("=======InCorrect: Title Not Matching After open News Also=============");
 			}
 			
+			System.out.println("----------------------------News Content of :"+(i+1)+" News--------------------------");
+			String txtNewsContents = news.newsContent();
+			System.out.println(txtNewsContents);
+			
 			
 			System.out.println(">>>>>>>Click Back to Home Page<<<<<<<<");
 			//Thread.sleep(7000);

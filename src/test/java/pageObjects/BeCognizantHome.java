@@ -40,6 +40,9 @@ List<WebElement> listNews;
 WebElement txtTitleAfterOpenNews;
 
 
+@FindBy(xpath="//div[@data-automation-id=\"textBox\"]")
+WebElement txtNewsContent;
+
 @FindBy(xpath="//strong[text()='Around Cognizant']")
 WebElement txtScrollTill;
 
@@ -70,6 +73,14 @@ public String titleOfNews()
 //    wait.until(ExpectedConditions.visibilityOf(txtTitleAfterOpenNews));
 	String title= txtTitleAfterOpenNews.getText();
 	return title;
+}
+
+
+public String newsContent()
+{
+	bclass.ExplicitlyWait(txtNewsContent);
+	String NewsContent = txtNewsContent.getText();
+	return NewsContent;
 }
 
 public void clickHomePage()

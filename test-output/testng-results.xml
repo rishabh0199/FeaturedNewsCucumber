@@ -1,99 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="8" total="13" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-08T23:36:43 IST" name="Default suite" finished-at="2024-02-08T23:36:43 IST" duration-ms="116">
+  <suite started-at="2024-02-10T00:31:05 IST" name="Suite" finished-at="2024-02-10T00:34:17 IST" duration-ms="192419">
     <groups>
+      <group name="regression">
+        <method signature="TC_0002_NewsAndCount.countNews()[pri:2, instance:testCases.TC_0002_NewsAndCount@13e344d]" name="countNews" class="testCases.TC_0002_NewsAndCount"/>
+      </group> <!-- regression -->
       <group name="sanity">
-        <method signature="TC_0001_VerifyUserDetail.verify_User_Details()[pri:1, instance:testCases.TC_0001_VerifyUserDetail@25641d39]" name="verify_User_Details" class="testCases.TC_0001_VerifyUserDetail"/>
+        <method signature="TC_0001_VerifyUserDetail.verify_User_Details()[pri:1, instance:testCases.TC_0001_VerifyUserDetail@791f145a]" name="verify_User_Details" class="testCases.TC_0001_VerifyUserDetail"/>
       </group> <!-- sanity -->
       <group name="master">
-        <method signature="TC_0001_VerifyUserDetail.verify_User_Details()[pri:1, instance:testCases.TC_0001_VerifyUserDetail@25641d39]" name="verify_User_Details" class="testCases.TC_0001_VerifyUserDetail"/>
+        <method signature="TC_0001_VerifyUserDetail.verify_User_Details()[pri:1, instance:testCases.TC_0001_VerifyUserDetail@791f145a]" name="verify_User_Details" class="testCases.TC_0001_VerifyUserDetail"/>
+        <method signature="TC_0002_NewsAndCount.countNews()[pri:2, instance:testCases.TC_0002_NewsAndCount@13e344d]" name="countNews" class="testCases.TC_0002_NewsAndCount"/>
       </group> <!-- master -->
     </groups>
-    <test started-at="2024-02-08T23:36:43 IST" name="Default test" finished-at="2024-02-08T23:36:43 IST" duration-ms="116">
+    <test started-at="2024-02-10T00:31:05 IST" name="Test" finished-at="2024-02-10T00:34:17 IST" duration-ms="192419">
+      <class name="testCases.TC_0002_NewsAndCount">
+        <test-method signature="countNews()[pri:2, instance:testCases.TC_0002_NewsAndCount@13e344d]" started-at="2024-02-10T00:31:33 IST" name="countNews" finished-at="2024-02-10T00:31:34 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- countNews -->
+      </class> <!-- testCases.TC_0002_NewsAndCount -->
+      <class name="testCases.TC_0004_ClickEachNewsAndPrint">
+        <test-method signature="clickEachNews()[pri:0, instance:testCases.TC_0004_ClickEachNewsAndPrint@6574a52c]" started-at="2024-02-10T00:31:35 IST" name="clickEachNews" finished-at="2024-02-10T00:34:05 IST" duration-ms="149924" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickEachNews -->
+      </class> <!-- testCases.TC_0004_ClickEachNewsAndPrint -->
+      <class name="testCases.TC_0005_AppsAndTools">
+        <test-method signature="appsAndTools()[pri:0, instance:testCases.TC_0005_AppsAndTools@6c1a5b54]" started-at="2024-02-10T00:34:05 IST" name="appsAndTools" finished-at="2024-02-10T00:34:16 IST" duration-ms="10991" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appsAndTools -->
+      </class> <!-- testCases.TC_0005_AppsAndTools -->
       <class name="testCases.TC_0001_VerifyUserDetail">
-        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:testCases.TC_0001_VerifyUserDetail@25641d39]" started-at="2024-02-08T23:36:43 IST" name="driverSetup" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1707415603539" status="FAIL">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method driverSetup but has not been marked @Optional or defined
-in C:\Users\2304092\AppData\Local\Temp\7\testng-eclipse--1668360858\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method driverSetup but has not been marked @Optional or defined
-in C:\Users\2304092\AppData\Local\Temp\7\testng-eclipse--1668360858\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:270)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-at org.testng.TestRunner.run(TestRunner.java:589)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method is-config="true" signature="driverSetup(java.lang.String)[pri:0, instance:testCases.TC_0001_VerifyUserDetail@791f145a]" started-at="2024-02-10T00:31:05 IST" name="driverSetup" finished-at="2024-02-10T00:31:21 IST" duration-ms="16156" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driverSetup -->
-        <test-method signature="verify_User_Details()[pri:1, instance:testCases.TC_0001_VerifyUserDetail@25641d39]" started-at="2024-02-08T23:36:43 IST" name="verify_User_Details" finished-at="2024-02-08T23:36:43 IST" duration-ms="0" status="SKIP">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method driverSetup but has not been marked @Optional or defined
-in C:\Users\2304092\AppData\Local\Temp\7\testng-eclipse--1668360858\testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method driverSetup but has not been marked @Optional or defined
-in C:\Users\2304092\AppData\Local\Temp\7\testng-eclipse--1668360858\testng-customsuite.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:270)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:358)
-at org.testng.internal.Parameters.createParameters(Parameters.java:700)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:168)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:302)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.beforeRun(TestRunner.java:627)
-at org.testng.TestRunner.run(TestRunner.java:589)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method signature="verify_User_Details()[pri:1, instance:testCases.TC_0001_VerifyUserDetail@791f145a]" started-at="2024-02-10T00:31:21 IST" name="verify_User_Details" finished-at="2024-02-10T00:31:33 IST" duration-ms="11957" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verify_User_Details -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0001_VerifyUserDetail@25641d39]" started-at="2024-02-08T23:36:43 IST" name="tearDown" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1707415603638" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC_0001_VerifyUserDetail@791f145a]" started-at="2024-02-10T00:34:16 IST" name="tearDown" finished-at="2024-02-10T00:34:17 IST" duration-ms="1188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC_0001_VerifyUserDetail -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testCases.TC_0003_CompareHeadingwithToolTip">
+        <test-method signature="cmpTooltip()[pri:0, instance:testCases.TC_0003_CompareHeadingwithToolTip@1ffaf86]" started-at="2024-02-10T00:31:34 IST" name="cmpTooltip" finished-at="2024-02-10T00:31:35 IST" duration-ms="947" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cmpTooltip -->
+      </class> <!-- testCases.TC_0003_CompareHeadingwithToolTip -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
