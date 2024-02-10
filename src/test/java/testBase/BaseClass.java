@@ -29,6 +29,7 @@ import org.testng.annotations.Parameters;
 import io.cucumber.java.After;
 import io.cucumber.java.Before;
 
+
 public class BaseClass {
 	static Logger logger;
 	
@@ -118,6 +119,7 @@ public class BaseClass {
 			e.printStackTrace();
 		}
 	}
+	
 	
 	
 

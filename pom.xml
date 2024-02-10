@@ -99,6 +99,15 @@
     <version>7.15.0</version>
     <scope>test</scope>
 </dependency>
+
+<!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit-platform-engine -->
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-junit-platform-engine</artifactId>
+    <version>7.15.0</version>
+    <scope>test</scope>
+</dependency>
+
   
 <!-- https://mvnrepository.com/artifact/org.apache.logging.log4j/log4j-core -->
 <dependency>

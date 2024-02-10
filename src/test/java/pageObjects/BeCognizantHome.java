@@ -14,6 +14,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import testBase.BaseClass;
+import utilities.WritingData;
 
 public class BeCognizantHome extends BasePage {
 	BaseClass bclass= new BaseClass();
@@ -66,6 +67,7 @@ public List<WebElement> getAllNews()
     return listNews;
 }
 
+
 public String titleOfNews()
 {
 	bclass.ExplicitlyWait(txtTitleAfterOpenNews);
@@ -74,6 +76,8 @@ public String titleOfNews()
 	String title= txtTitleAfterOpenNews.getText();
 	return title;
 }
+
+
 
 
 public String newsContent()
@@ -89,7 +93,8 @@ public void clickHomePage()
 	txtURLHomePage.click();
 }
 
-public void allAppsTools() throws InterruptedException
+
+public List<WebElement> allAppsTools() throws InterruptedException
 {
 
 	JavascriptExecutor js = (JavascriptExecutor) driver;
@@ -100,14 +105,9 @@ public void allAppsTools() throws InterruptedException
     Thread.sleep(5000);
 	
      bclass.ExplicitlyWaitList(listAllAppsTools);
-	System.out.println("Total Apps and Tools: "+ listAllAppsTools.size());
+	//System.out.println("Total Apps and Tools: "+ listAllAppsTools.size());
 	
-	Thread.sleep(5000);
-	for(int i=0;i<listAllAppsTools.size();i++)
-	{
-		WebElement apptool= listAllAppsTools.get(i);
-		System.out.println(apptool.getText());
-	}
+	return listAllAppsTools;
 }
 
 }

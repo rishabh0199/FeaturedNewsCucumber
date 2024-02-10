@@ -38,14 +38,14 @@ public class CucumberSteps{
 	}
 
 	@Then("Print and Verify all News")
-	public void print_and_verify_all_news() {
+	public void print_and_verify_all_news() throws IOException {
 		TC_0002_NewsAndCount d = new TC_0002_NewsAndCount();
 		d.countNews();
 
 	}
 	
 	@Then("Compare News With Tool Tip")
-	public void compare_news_with_tool_tip() {
+	public void compare_news_with_tool_tip() throws IOException {
 		TC_0003_CompareHeadingwithToolTip d = new TC_0003_CompareHeadingwithToolTip();
 		d.cmpTooltip();
 	}
@@ -57,7 +57,7 @@ public class CucumberSteps{
 	}
 
 	@Then("Print All Apps and Tools Available On Home Page")
-	public void print_all_apps_and_tools_available_on_home_page() throws InterruptedException {
+	public void print_all_apps_and_tools_available_on_home_page() throws InterruptedException, IOException {
 		TC_0005_AppsAndTools d = new TC_0005_AppsAndTools();
 		d.appsAndTools();
 	

@@ -1,15 +1,18 @@
 package testCases;
 
+import java.io.IOException;
 import java.util.List;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 import pageObjects.BeCognizantHome;
 import testBase.BaseClass;
+import utilities.WritingData;
 
 public class TC_0002_NewsAndCount extends BaseClass {
 	
+	
 	@Test(priority=2,groups= {"regression","master"})
-	public void countNews()
+	public void countNews() throws IOException
 	{
 		BaseClass.getLogger().info("*****starting TC_0002_NewsAndCount******");
 		BeCognizantHome news=new BeCognizantHome(driver);
@@ -26,6 +29,7 @@ public class TC_0002_NewsAndCount extends BaseClass {
 		{
 			System.out.println(elem.getText());
 		}
+		WritingData.setNewsList(allnews);//send to excel
 		System.out.println();
 		BaseClass.getLogger().info("*****Finished TC_0002_NewsAndCount******");
 		System.out.println("---------------------------------------------------------------------------");
