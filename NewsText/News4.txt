@@ -1,33 +1,14 @@
-Modern software engineering is often a Herculean undertaking. Even with well-defined objectives and processes, software projects by their very nature run the risk of getting derailed and productivity is getting harder to sustain. Emerging technology, competition and customer expectations require organizations to achieve a pace of change that is often unattainable due to the increasing complexity of their technology estates, fractured use of modern engineering processes, and legacy debt and costs. 
- The Software Development Life Cycle (SDLC) provides a framework that enables organizations to ship quality software faster while also reducing cost. It lays a foundation for clarity around a software project’s goals, planning activities and deliverables, identifying and minimizing risks, vetting software quality, managing customer expectations, and maintaining the product once it’s deployed.
- We are now able to use Cognizant Flowsource™ to accelerate the end-to-end SDLC and address completely new automation opportunities. Cognizant Flowsource is our software development lifecycle management platform, offering a unified developer experience powered by automation and generative AI (gen AI) that will sustain next generation engineering.
- “In the gen AI era, the pursuit of innovation is creating a hotbed 
-of opportunity for organizations to work faster — but working faster 
-must be sustainable, and ‘more code’ shouldn’t mean ‘more problems.’ Cognizant Flowsource addresses this growing need and helps organizations improve quality and consistency across development. 
-The result is better time to market for new and innovative products 
-and services as well as improvements in scale that can enable 
-these enterprises to stay ahead of competition.” 
-- Prasad Sankaran, Head of Software & Platform Engineering
-  “As a center of gravity for a modern delivery model, Cognizant Flowsource integrates all stages of the SDLC, from design to launch, providing 
-a unified engineering platform connecting the work of all stakeholders 
-and the development community for greater productivity and control. 
-It incorporates digital assets and tools to help cross-functional 
-engineering teams deliver better outcomes, 
-faster with increased control and transparency.” 
-- Pramod Bijani, Global Practice Leader 
-for Digital Engineering and Digital Experience
- The platform delivers meaningful business benefits for clients, including:
-Simplify, automate and bring intelligence to all stages of the SDLC with generative AI tooling, including copilots.
-Accelerate the work process with included plugins on this extendable platform, and the ability to easily add third party plugins.
-Bring consistency and quickness to developer work with self-service software and environment provisioning utilizing pre-configured templates.
-Quality assurance with integrated, automated quality engineering and assurance throughout the process.
-Ensure transparency with automated documentation and knowledge management within a single portal including component store experience across all teams.
-A holistic view of engineering operations across the entire SDLC.
-Track effectiveness and issues across engineering and business, with executive clarity on business impact.
-  Cognizant Flowsource complements our platform ecosystem — Cognizant Neuro® AI, Cognizant Neuro® IT Operations and Cognizant Skygrade™ — all designed to help enterprises manage the complexity of their IT environments and modernize towards a cloud-native architecture.
-  The below resources explain the value Cognizant Flowsource can bring to our clients as we collectively embrace the power of gen AI. Please connect with your SLS for Cognizant SPE to discuss and support client opportunities.
-Cognizant Flowsource on Cognizant.com
-Press release
-Client pitch deck
-FAQs (coming soon)
-Like, comment and repost the Cognizant LinkedIn announcement
+The ET Now Global Business Summit 2024 brought together some of the world’s leading CEOs, heads of state and policymakers to deliberate on and discuss critical issues of our time and map the future. The theme of the summit was Disruption, Development and Diversification.
+ Addressing the summit in his keynote, our CEO, Ravi Kumar spoke on Generative AI's power to shape the future of work and later in the day spoke at a panel discussion on the topic Fissures, Faultlines and Future.
+ Highlights from Ravi's keynote:
+  “Cognizant is at the forefront of leveraging technological advancements. Generative AI represents a departure from past technological shifts, fundamentally altering the landscape of jobs, skills, tasks, and occupations while fostering upward social mobility. Unlike its predecessors, Generative AI follows a steeper S-curve trajectory, significantly transforming various industries,” he said. 
+
+Comparing the Generative AI’s impact to historical computing changes, Ravi added, “Businesses must adapt by reorganizing operations, prioritizing safety, trust, and equity to ensure a fair and inclusive future. Its rapid diffusion and bidirectional understanding between humans and machines mirror past technological revolutions.”
+ He concluded by highlighting Cognizant’s focus on technological continuity, emphasizing the imperative for businesses to adapt their strategies alongside advancing technologies to cultivate a prosperous and inclusive future workforce.
+  Ravi also participated in a panel discussion on the topic Fissures, Faultlines and Future – In Search of an Equilibrium, along with other eminent industry leaders including Bill Winters, CEO, Standard Chartered, Jenny Johnson, President and CEO, Franklin Templeton, Rizwan Sajan, Founder and Chairman, Danube Group and Suneeta Reddy, MD, Apollo Hospitals. The leaders discussed some of the most critical problems faced by the world today, the role of AI, and the growth roadmap for India.
+   Before concluding the day, Ravi met India’s Hon'ble Prime Minister, Narendra Modi and Hon’ble PM of Guyana, H.E Brigadier (Retd.), Indian ministers and industry leaders from across the world.
+  To watch the full recording of the summit, click here.
+Timestamps:
+Ravi’s keynote: 2:36 (mins) till 2:52 (mins)
+Panel discussion: 3:04 (mins) till 3:33 (mins)
+ To know more about GBS, click here.

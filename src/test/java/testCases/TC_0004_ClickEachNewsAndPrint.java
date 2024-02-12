@@ -12,11 +12,14 @@ public class TC_0004_ClickEachNewsAndPrint extends BaseClass {
 	JavascriptExecutor js = (JavascriptExecutor)driver;
 	@Test
 	public void clickEachNews() throws InterruptedException, IOException {
+		BaseClass.getLogger().info("**********Starting TC_0004_ClickEachNewsAndPrint***************");
 		System.out.println("---------------------------------------------------------------------------");
+		BaseClass.getLogger().info("**********Clicking and storing in text***************");
 		System.out.println("Clicking each news and Verifying it:");
 		System.out.println();
 		System.out.println();
 		BeCognizantHome news = new BeCognizantHome(driver);
+		news.scrollpage();
 		List<WebElement> allnews=news.getAllNews();
 		for(int i=0;i<allnews.size();i++)
 		{
@@ -24,6 +27,7 @@ public class TC_0004_ClickEachNewsAndPrint extends BaseClass {
 			WebElement eachnews=allnews.get(i);
 			
 			System.out.println("Title of News :"+(i+1)+" Before Click:");
+			BaseClass.getLogger().info("**********Printed title beofore click***************");
 			String beforeClick=eachnews.getText();
 			System.out.println(beforeClick);
 			
@@ -33,10 +37,11 @@ public class TC_0004_ClickEachNewsAndPrint extends BaseClass {
 			System.out.println();
 			System.out.println();
 			System.out.println("Title of News :"+(i+1)+" After Click:");
+			BaseClass.getLogger().info("**********Printed title after click opend the news***************");
 			String afterClick=news.titleOfNews();
 			System.out.println(afterClick);
 			
-			
+			BaseClass.getLogger().info("**********Matching if after and before click title matches***************");
 			if(beforeClick.equalsIgnoreCase(afterClick))
 			{
 				System.out.println("Correct: Title Matching After open News Also:");
@@ -51,10 +56,13 @@ public class TC_0004_ClickEachNewsAndPrint extends BaseClass {
 			captureAndStoreNewsContent("News"+(i+1));
 			System.out.println();
 			System.out.println();
+			
 			System.out.println("News Successfully written in text file inside testData Folder:");
+			BaseClass.getLogger().info("**********Successfully stored news to text file***************");
 			
 			System.out.println();
 			System.out.println();
+			BaseClass.getLogger().info("**********Click back to home page***************");
 			System.out.println("Click Back to Home Page........");
 			//Thread.sleep(7000);
 			news.clickHomePage();
@@ -63,10 +71,13 @@ public class TC_0004_ClickEachNewsAndPrint extends BaseClass {
 			if(driver.getTitle().equalsIgnoreCase("Be.Cognizant - Home"))
 			{
 				System.out.println("!!!!!Successfully back to Home Page!!!!!!!");
+				BaseClass.getLogger().info("**********Successfully back to home**************");
 			}
+			news.scrollpage();
 			System.out.println("---------------------------------------------------------------------------");
 			System.out.println();
 			System.out.println();
+			
 		}
 	}
 	

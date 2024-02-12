@@ -6,7 +6,11 @@
 <test thread-count="5" name="chrometest">
 	  <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="testCases.TC_0001_VerifyUserDetail"/>
+        <class name="testCases.TC_0001_VerifyUserDetail"/>
+     	<class name="testCases.TC_0002_NewsAndCount"/> 
+     	<class name="testCases.TC_0003_CompareHeadingwithToolTip"/>
+     	<class name="testCases.TC_0004_ClickEachNewsAndPrint"/>
+        <class name="testCases.TC_0005_AppsAndTools"/>
     </classes>
   </test> <!-- Test -->
   
@@ -14,7 +18,11 @@
     <test thread-count="5" name="edgetest">
 	  <parameter name="browser" value="edge"/>
     <classes>
-      <class name="testCases.TC_0001_VerifyUserDetail"/>
+      	<class name="testCases.TC_0001_VerifyUserDetail"/>
+     	<class name="testCases.TC_0002_NewsAndCount"/> 
+     	<class name="testCases.TC_0003_CompareHeadingwithToolTip"/>
+     	<class name="testCases.TC_0004_ClickEachNewsAndPrint"/>
+        <class name="testCases.TC_0005_AppsAndTools"/>
     </classes>
   </test> <!-- Test -->
   

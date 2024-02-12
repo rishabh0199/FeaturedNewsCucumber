@@ -1,5 +1,6 @@
 package testCases;
 
+import java.io.IOException;
 import java.util.List;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
@@ -120,7 +121,7 @@ public class TC_Combined extends BaseClass{
 		
 		
 		@Test(priority=5,groups= {"sanity","master"})
-		public void appsAndTools() throws InterruptedException
+		public void appsAndTools() throws InterruptedException, IOException
 		{
 			
 			BeCognizantHome hm= new BeCognizantHome(driver);

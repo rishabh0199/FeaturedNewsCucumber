@@ -1,5 +1,6 @@
 package pageObjects;
 
+import java.io.IOException;
 import java.time.Duration;
 import java.util.List;
 
@@ -47,6 +48,8 @@ WebElement txtNewsContent;
 @FindBy(xpath="//strong[text()='Around Cognizant']")
 WebElement txtScrollTill;
 
+@FindBy(xpath="//div[@id=\"4f7e87d5-f184-4501-8008-0ee4b0a38fcf\"]")
+WebElement txtScrollEach;
 
 @FindBy(xpath="//div[@id='89c5ffca-2ffb-4052-a723-e99c8c9a14ef']//div[@id='QuicklinksItemTitle']")
 //@FindBy(xpath="//div[@id=\"89c5ffca-2ffb-4052-a723-e99c8c9a14ef\"]//div[@class=\"css-252\"]")
@@ -94,20 +97,25 @@ public void clickHomePage()
 }
 
 
-public List<WebElement> allAppsTools() throws InterruptedException
+public List<WebElement> allAppsTools() throws InterruptedException, IOException
 {
 
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 	
 	bclass.ExplicitlyWait(txtScrollTill);
     js.executeScript("arguments[0].scrollIntoView(true);",txtScrollTill);
-    
     Thread.sleep(5000);
-	
      bclass.ExplicitlyWaitList(listAllAppsTools);
 	//System.out.println("Total Apps and Tools: "+ listAllAppsTools.size());
-	
+     bclass.screenshot("apssandtools");
 	return listAllAppsTools;
+}
+
+public void scrollpage()
+{
+	JavascriptExecutor js = (JavascriptExecutor) driver;
+	bclass.ExplicitlyWait(txtScrollEach);
+    js.executeScript("arguments[0].scrollIntoView(true);",txtScrollEach);
 }
 
 }

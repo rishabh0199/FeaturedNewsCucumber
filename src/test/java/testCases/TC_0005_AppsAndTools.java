@@ -15,7 +15,9 @@ public class TC_0005_AppsAndTools extends BaseClass{
 	public void appsAndTools() throws InterruptedException, IOException
 	{
 		System.out.println("---------------------------------------------------------------------------");
+		BaseClass.getLogger().info("**********Starting Tc_0005_ClickEachNewsAndPrint***************");
 		System.out.println("Total Apps And Tools Available:");
+		BaseClass.getLogger().info("**********Click back to home page***************");
 		BeCognizantHome hm= new BeCognizantHome(driver);
 		List<WebElement> allAppsTool=hm.allAppsTools();
 		System.out.println("Total Apps and Tools: "+ allAppsTool.size());
@@ -25,7 +27,10 @@ public class TC_0005_AppsAndTools extends BaseClass{
 			WebElement apptool= allAppsTool.get(i);
 			System.out.println(apptool.getText());
 		}
+		BaseClass.getLogger().info("**********Sucessfully printed all Apps and Tools***************");
 		WritingData.setAppsList(allAppsTool);//send to excel
+		BaseClass.getLogger().info("**********Sucessfully Stored Apps and tools to Excel***************");
+		BaseClass.getLogger().info("**********End Tc_0005_ClickEachNewsAndPrint***************");
 		System.out.println("---------------------------------------------------------------------------");
 	}
 

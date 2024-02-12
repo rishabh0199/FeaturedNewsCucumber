@@ -23,8 +23,11 @@
   <test thread-count="5" name="Test">
 	  <parameter name="browser" value="chrome"/>
     <classes>
-      <!-- <class name="testCases.TC_Combined"/> -->
-      <class name="testCases.TC_0004_ClickEachNewsAndPrint"/>
+    	    <class name="testCases.TC_0001_VerifyUserDetail"/>
+     	<class name="testCases.TC_0002_NewsAndCount"/> 
+     	<class name="testCases.TC_0003_CompareHeadingwithToolTip"/>
+     	<class name="testCases.TC_0004_ClickEachNewsAndPrint"/>
+        <class name="testCases.TC_0005_AppsAndTools"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

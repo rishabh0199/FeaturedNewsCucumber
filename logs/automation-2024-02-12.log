@@ -1,0 +1,48 @@
+22:36:49.425 [main] INFO  testBase.BaseClass - **********Click back to home page***************
+22:36:54.938 [main] INFO  testBase.BaseClass - **********Successfully back to home**************
+22:36:55.541 [main] INFO  testBase.BaseClass - **********Starting Tc_0005_ClickEachNewsAndPrint***************
+22:36:55.541 [main] INFO  testBase.BaseClass - **********Click back to home page***************
+22:37:01.791 [main] INFO  testBase.BaseClass - **********Sucessfully printed all Apps and Tools***************
+22:37:02.680 [main] INFO  testBase.BaseClass - **********Sucessfully Stored Apps and tools to Excel***************
+22:37:02.681 [main] INFO  testBase.BaseClass - **********End Tc_0005_ClickEachNewsAndPrint***************
+22:39:08.451 [main] INFO  testBase.BaseClass - *****starting TC_0001_VerifyUserDetail******
+22:39:17.846 [main] INFO  testBase.BaseClass - **********Clicked on User Profile************
+22:39:21.677 [main] INFO  testBase.BaseClass - **********Sucessfully Stored user details to to Excel***************
+22:39:21.677 [main] INFO  testBase.BaseClass - **********Get user Information************
+22:39:21.677 [main] INFO  testBase.BaseClass - **********Finishes TC_001_VerifyUserDetail************
+22:39:21.754 [main] INFO  testBase.BaseClass - *****starting TC_0002_NewsAndCount******
+22:39:23.448 [main] INFO  testBase.BaseClass - *****Printing Total News Count******
+22:39:23.484 [main] INFO  testBase.BaseClass - **********News:************
+22:39:25.459 [main] INFO  testBase.BaseClass - **********Sucessfully Stored all news to Excel***************
+22:39:25.460 [main] INFO  testBase.BaseClass - *****Finished TC_0002_NewsAndCount******
+22:39:25.467 [main] INFO  testBase.BaseClass - **********Starting TC_0003_CompareHeadingwithToolTip***************
+22:39:25.764 [main] INFO  testBase.BaseClass - ************printing news and comparing with tool tip checking weather its match with tool tip********
+22:39:26.817 [main] INFO  testBase.BaseClass - **********Sucessfully Stored tool tip to Excel***************
+22:39:26.817 [main] INFO  testBase.BaseClass - **********Finished TC_0003_CompareHeadingwithToolTip***************
+22:39:26.822 [main] INFO  testBase.BaseClass - **********Starting TC_0004_ClickEachNewsAndPrint***************
+22:39:26.823 [main] INFO  testBase.BaseClass - **********Clicking and storing in text***************
+22:39:27.248 [main] INFO  testBase.BaseClass - **********Printed title beofore click***************
+22:39:27.532 [main] INFO  testBase.BaseClass - **********Printed title after click opend the news***************
+22:39:29.461 [main] INFO  testBase.BaseClass - **********Matching if after and before click title matches***************
+22:39:29.839 [main] INFO  testBase.BaseClass - **********Successfully stored news to text file***************
+22:39:29.840 [main] INFO  testBase.BaseClass - **********Click back to home page***************
+22:39:35.277 [main] INFO  testBase.BaseClass - **********Successfully back to home**************
+22:39:36.089 [main] INFO  testBase.BaseClass - **********Printed title beofore click***************
+22:39:36.302 [main] INFO  testBase.BaseClass - **********Printed title after click opend the news***************
+22:39:38.119 [main] INFO  testBase.BaseClass - **********Matching if after and before click title matches***************
+22:39:38.357 [main] INFO  testBase.BaseClass - **********Successfully stored news to text file***************
+22:39:38.357 [main] INFO  testBase.BaseClass - **********Click back to home page***************
+22:39:43.557 [main] INFO  testBase.BaseClass - **********Successfully back to home**************
+22:39:44.073 [main] INFO  testBase.BaseClass - **********Printed title beofore click***************
+22:39:44.244 [main] INFO  testBase.BaseClass - **********Printed title after click opend the news***************
+22:39:45.969 [main] INFO  testBase.BaseClass - **********Matching if after and before click title matches***************
+22:39:46.204 [main] INFO  testBase.BaseClass - **********Successfully stored news to text file***************
+22:39:46.205 [main] INFO  testBase.BaseClass - **********Click back to home page***************
+22:39:51.451 [main] INFO  testBase.BaseClass - **********Successfully back to home**************
+22:39:51.909 [main] INFO  testBase.BaseClass - **********Printed title beofore click***************
+22:39:52.118 [main] INFO  testBase.BaseClass - **********Printed title after click opend the news***************
+22:39:54.702 [main] INFO  testBase.BaseClass - **********Matching if after and before click title matches***************
+22:39:54.886 [main] INFO  testBase.BaseClass - **********Successfully stored news to text file***************
+22:39:54.887 [main] INFO  testBase.BaseClass - **********Click back to home page***************
+22:40:00.109 [main] INFO  testBase.BaseClass - **********Successfully back to home**************
+22:40:00.550 [main] INFO  testBase.BaseClass - **********Printed title beofore click***************

@@ -4,6 +4,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
+import testBase.BaseClass;
 import utilities.ExcelUtilFile;
 
 public class UserProfile extends BasePage {
@@ -26,6 +27,7 @@ public void getUserInformation() {
 		System.out.println("Username: " +textUsername.getText() + "Email: " +textUserEmail.getText());
 		ExcelUtilFile.setCellData(path, "Sheet1", 1, 0, textUsername.getText());//send to excel
 		ExcelUtilFile.setCellData(path, "Sheet1", 2, 0, textUserEmail.getText());//send to excel
+		BaseClass.getLogger().info("**********Sucessfully Stored user details to to Excel***************");
 	}catch(Exception e) {
 		System.out.println(e.getMessage());
 	}

@@ -74,20 +74,6 @@ public class BaseClass {
 		driver.quit();
 	}
 	
-	public String captureScreen(String tname) throws IOException
-	{
-		String timeStamp = new SimpleDateFormat("yyyMMddhhmmss").format(new Date());
-		
-		TakesScreenshot ts= (TakesScreenshot) driver;
-		File sourceFile = ts.getScreenshotAs(OutputType.FILE);
-		
-		String targetFilePath= System.getProperty("user.dir")+"\\screenshots\\" + tname +"_" + timeStamp + ".png";
-		File targetFile= new File(targetFilePath);
-	//	FileUtils.copyFile(sourceFile, targetFilePath);
-		sourceFile.renameTo(targetFile);//copy source file to target file
-		
-		return targetFilePath;
-	}
 	
 	
 	public void ExplicitlyWait(WebElement elem)
@@ -120,7 +106,31 @@ public class BaseClass {
 		}
 	}
 	
+	public String captureScreen(String tname) throws IOException
+	{
+		String timeStamp = new SimpleDateFormat("yyyMMddhhmmss").format(new Date());
+		
+		TakesScreenshot ts= (TakesScreenshot) driver;
+		File sourceFile = ts.getScreenshotAs(OutputType.FILE);
+		
+		String targetFilePath= System.getProperty("user.dir")+"\\screenshotsOnFail\\" + tname +"_" + timeStamp + ".png";
+		File targetFile= new File(targetFilePath);
+	//	FileUtils.copyFile(sourceFile, targetFilePath);
+		sourceFile.renameTo(targetFile);//copy source file to target file
+		
+		return targetFilePath;
+	}
 	
-	
+	public void screenshot(String tname) throws IOException
+	{
+		String timeStamp = new SimpleDateFormat("yyyMMddhhmmss").format(new Date());
+		
+		TakesScreenshot ts= (TakesScreenshot) driver;
+		File sourceFile = ts.getScreenshotAs(OutputType.FILE);
+		
+		String targetFilePath= System.getProperty("user.dir")+"\\screenshots\\"+ tname+" "+timeStamp + ".png";
+		File targetFile= new File(targetFilePath);
+		FileUtils.copyFile(sourceFile, targetFile);	
+	}
 
 }

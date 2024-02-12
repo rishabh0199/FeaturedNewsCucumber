@@ -16,6 +16,7 @@ public class TC_0002_NewsAndCount extends BaseClass {
 	{
 		BaseClass.getLogger().info("*****starting TC_0002_NewsAndCount******");
 		BeCognizantHome news=new BeCognizantHome(driver);
+		news.scrollpage();
 		List<WebElement> allnews=news.getAllNews();
 		System.out.println("---------------------------------------------------------------------------");
 		BaseClass.getLogger().info("*****Printing Total News Count******");
@@ -30,6 +31,7 @@ public class TC_0002_NewsAndCount extends BaseClass {
 			System.out.println(elem.getText());
 		}
 		WritingData.setNewsList(allnews);//send to excel
+		BaseClass.getLogger().info("**********Sucessfully Stored all news to Excel***************");
 		System.out.println();
 		BaseClass.getLogger().info("*****Finished TC_0002_NewsAndCount******");
 		System.out.println("---------------------------------------------------------------------------");

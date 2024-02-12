@@ -20,8 +20,9 @@ public class TC_0003_CompareHeadingwithToolTip extends BaseClass {
 	System.out.println("Comparing with Tool Tip:");
 	
 	BeCognizantHome tt = new BeCognizantHome(driver);
+	tt.scrollpage();
 	List<WebElement> allNews = tt.getAllNews(); 
-	BaseClass.getLogger().info("************");
+	BaseClass.getLogger().info("************printing news and comparing with tool tip checking weather its match with tool tip********");
 	int i = 0;
 	for(WebElement elem:allNews)
 	{
@@ -45,7 +46,7 @@ public class TC_0003_CompareHeadingwithToolTip extends BaseClass {
 		}
 	}
 	WritingData.setToolTip(toolTips);//send tooltip to excel
-
+	BaseClass.getLogger().info("**********Sucessfully Stored tool tip to Excel***************");
 
 	BaseClass.getLogger().info("**********Finished TC_0003_CompareHeadingwithToolTip***************");
 	System.out.println("---------------------------------------------------------------------------");

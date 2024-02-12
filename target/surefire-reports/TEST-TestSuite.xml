@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="98.112" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="106.027" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="21"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Users\2304092\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.2.v20240123-0840\jre\bin"/>
-    <property name="sun.java.command" value="C:\Users\2304092\AppData\Local\Temp\7\surefire6149126968968211006\surefirebooter-20240211025417857_3.jar C:\Users\2304092\AppData\Local\Temp\7\surefire6149126968968211006 2024-02-11T02-54-17_458-jvmRun1 surefire-20240211025417857_1tmp surefire_0-20240211025417857_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\2304092\AppData\Local\Temp\9\surefire10557050777507783561\surefirebooter-20240212223848611_3.jar C:\Users\2304092\AppData\Local\Temp\9\surefire10557050777507783561 2024-02-12T22-38-48_258-jvmRun1 surefire-20240212223848611_1tmp surefire_0-20240212223848611_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\2304092\Eclipse-New\FN_TestNG\target\test-classes;C:\Users\2304092\Eclipse-New\FN_TestNG\target\classes;C:\Users\2304092\.m2\repository\org\seleniumhq\selenium\selenium-java\4.17.0\selenium-java-4.17.0.jar;C:\Users\2304092\.m2\repository\org\seleniumhq\selenium\selenium-api\4.17.0\selenium-api-4.17.0.jar;C:\Users\2304092\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.17.0\selenium-chrome-driver-4.17.0.jar;C:\Users\2304092\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\2304092\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.17.0\selenium-chromium-driver-4.17.0.jar;C:\Users\2304092\.m2\repository\org\seleniumhq\selenium\selenium-json\4.17.0\selenium-json-4.17.0.jar;C:\Users\2304092\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.17.0\selenium-manager-4.17.0.jar;C:\Users\2304092\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v119\4.17.0\selenium-devtools-v119-4.17.0.jar;C:\Users\2304092\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v120\4.17.0\selenium-devtools-v120-4.17.0.jar;C:\Users\2304092\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v121\4.17.0\selenium-devtools-v121-4.17.0.jar;C:\Users\2304092\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.17.0\selenium-devtools-v85-4.17.0.jar;C:\Users\2304092\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.17.0\selenium-edge-driver-4.17.0.jar;C:\Users\2304092\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.17.0\selenium-firefox-driver-4.17.0.jar;C:\Users\2304092\.m2\repository\org\seleniumhq\selenium\selenium-http\4.17.0\selenium-http-4.17.0.jar;C:\Users\2304092\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\2304092\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.17.0\selenium-ie-driver-4.17.0.jar;C:\Users\2304092\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.17.0\selenium-remote-driver-4.17.0.jar;C:\Users\2304092\.m2\repository\com\google\guava\guava\33.0.0-jre\guava-33.0.0-jre.jar;C:\Users\2304092\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\2304092\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\2304092\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\2304092\.m2\repository\org\checkerframework\checker-qual\3.41.0\checker-qual-3.41.0.jar;C:\Users\2304092\.m2\repository\com\google\errorprone\error_prone_annotations\2.23.0\error_prone_annotations-2.23.0.jar;C:\Users\2304092\.m2\repository\com\google\j2objc\j2objc-annotations\2.8\j2objc-annotations-2.8.jar;C:\Users\2304092\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.23.1-alpha\opentelemetry-semconv-1.23.1-alpha.jar;C:\Users\2304092\.m2\repository\io\opentelemetry\opentelemetry-api\1.34.1\opentelemetry-api-1.34.1.jar;C:\Users\2304092\.m2\repository\io\opentelemetry\opentelemetry-context\1.34.1\opentelemetry-context-1.34.1.jar;C:\Users\2304092\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.34.1\opentelemetry-exporter-logging-1.34.1.jar;C:\Users\2304092\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.34.1\opentelemetry-sdk-common-1.34.1.jar;C:\Users\2304092\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.34.1\opentelemetry-sdk-extension-autoconfigure-spi-1.34.1.jar;C:\Users\2304092\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.34.1\opentelemetry-sdk-extension-autoconfigure-1.34.1.jar;C:\Users\2304092\.m2\repository\io\opentelemetry\opentelemetry-api-events\1.34.1-alpha\opentelemetry-api-events-1.34.1-alpha.jar;C:\Users\2304092\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.34.1\opentelemetry-sdk-trace-1.34.1.jar;C:\Users\2304092\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.34.1\opentelemetry-sdk-1.34.1.jar;C:\Users\2304092\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.34.1\opentelemetry-sdk-metrics-1.34.1.jar;C:\Users\2304092\.m2\repository\io\opentelemetry\opentelemetry-extension-incubator\1.34.1-alpha\opentelemetry-extension-incubator-1.34.1-alpha.jar;C:\Users\2304092\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.34.1\opentelemetry-sdk-logs-1.34.1.jar;C:\Users\2304092\.m2\repository\net\bytebuddy\byte-buddy\1.14.11\byte-buddy-1.14.11.jar;C:\Users\2304092\.m2\repository\org\seleniumhq\selenium\selenium-os\4.17.0\selenium-os-4.17.0.jar;C:\Users\2304092\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\2304092\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.17.0\selenium-safari-driver-4.17.0.jar;C:\Users\2304092\.m2\repository\org\seleniumhq\selenium\selenium-support\4.17.0\selenium-support-4.17.0.jar;C:\Users\2304092\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\2304092\.m2\repository\org\slf4j\slf4j-api\2.0.10\slf4j-api-2.0.10.jar;C:\Users\2304092\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\2304092\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\2304092\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\2304092\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\2304092\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\2304092\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\2304092\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\2304092\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\2304092\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\2304092\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\2304092\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\2304092\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\2304092\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\2304092\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\2304092\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\2304092\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\2304092\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\2304092\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\2304092\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\2304092\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\2304092\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\2304092\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\2304092\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\2304092\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\2304092\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\2304092\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\2304092\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.0\xmlbeans-5.2.0.jar;C:\Users\2304092\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\2304092\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\2304092\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\2304092\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\2304092\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\2304092\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\2304092\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\2304092\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\2304092\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\2304092\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\2304092\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\2304092\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\2304092\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\2304092\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\2304092\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\2304092\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\2304092\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\2304092\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\2304092\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\2304092\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\2304092\.m2\repository\io\cucumber\cucumber-junit\7.15.0\cucumber-junit-7.15.0.jar;C:\Users\2304092\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\2304092\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\2304092\.m2\repository\org\apache\logging\log4j\log4j-core\2.22.1\log4j-core-2.22.1.jar;C:\Users\2304092\.m2\repository\org\apache\logging\log4j\log4j-api\2.22.1\log4j-api-2.22.1.jar;C:\Users\2304092\.m2\repository\com\aventstack\extentreports\5.1.1\extentreports-5.1.1.jar;C:\Users\2304092\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\2304092\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\2304092\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\2304092\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;C:\Users\2304092\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\2304092\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\2304092\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\2304092\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\2304092\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\2304092\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\2304092\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\2304092\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\2304092\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\2304092\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\2304092\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\2304092\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\2304092\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\2304092\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\2304092\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\2304092\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\2304092\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\2304092\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\2304092\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\2304092\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\2304092\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\2304092\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\2304092\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\2304092\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\2304092\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\2304092\AppData\Local\Temp\7\surefire6149126968968211006\surefirebooter-20240211025417857_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\2304092\AppData\Local\Temp\9\surefire10557050777507783561\surefirebooter-20240212223848611_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="21.0.2+13-LTS"/>
@@ -46,7 +46,7 @@
     <property name="java.vendor.version" value="Temurin-21.0.2+13"/>
     <property name="localRepository" value="C:\Users\2304092\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
-    <property name="java.io.tmpdir" value="C:\Users\2304092\AppData\Local\Temp\7\"/>
+    <property name="java.io.tmpdir" value="C:\Users\2304092\AppData\Local\Temp\9\"/>
     <property name="java.version" value="21.0.2"/>
     <property name="user.dir" value="C:\Users\2304092\Eclipse-New\FN_TestNG"/>
     <property name="os.arch" value="amd64"/>
@@ -61,7 +61,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="65.0"/>
   </properties>
-  <testcase name="verify_User_Details" classname="testCases.TC_0001_VerifyUserDetail" time="16.161">
+  <testcase name="verify_User_Details" classname="testCases.TC_0001_VerifyUserDetail" time="14.562">
     <system-out><![CDATA[---------------------------------------------------------------------------
 User Information:
 Username: Yadav, Rishabh (Cognizant)Email: 2304092@cognizant.com
@@ -74,7 +74,7 @@ SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
 ]]></system-err>
   </testcase>
-  <testcase name="countNews" classname="testCases.TC_0002_NewsAndCount" time="2.204">
+  <testcase name="countNews" classname="testCases.TC_0002_NewsAndCount" time="3.711">
     <system-out><![CDATA[---------------------------------------------------------------------------
 Total Available News:
 Total News: 5
@@ -84,7 +84,7 @@ News Headings:
 Top 10 takeaways from our Q4 2023 earnings
 Meet your employee emcees for the 2024 Impact Awards!
 Meet the finalists of the 2024 Impact Awards
-Cognizant Flowsource™ will fuel the next generation of enterprise software engineering
+Cognizant shines at the Times Group Global Business Summit (GBS)
 CEO blog: Elevating Cognizant’s stature on the world stage
 
 ---------------------------------------------------------------------------
@@ -92,7 +92,7 @@ CEO blog: Elevating Cognizant’s stature on the world stage
 
 ]]></system-out>
   </testcase>
-  <testcase name="cmpTooltip" classname="testCases.TC_0003_CompareHeadingwithToolTip" time="1.556">
+  <testcase name="cmpTooltip" classname="testCases.TC_0003_CompareHeadingwithToolTip" time="1.353">
     <system-out><![CDATA[---------------------------------------------------------------------------
 Comparing with Tool Tip:
 News: Top 10 takeaways from our Q4 2023 earnings
@@ -110,8 +110,8 @@ ToolTip: Meet the finalists of the 2024 Impact Awards
 News matching with Tool Tip:
 
 
-News: Cognizant Flowsource™ will fuel the next generation of enterprise software engineering
-ToolTip: Cognizant Flowsource™ will fuel the next generation of enterprise software engineering
+News: Cognizant shines at the Times Group Global Business Summit (GBS)
+ToolTip: Cognizant shines at the Times Group Global Business Summit (GBS)
 News matching with Tool Tip:
 
 
@@ -125,7 +125,7 @@ News matching with Tool Tip:
 
 ]]></system-out>
   </testcase>
-  <testcase name="clickEachNews" classname="testCases.TC_0004_ClickEachNewsAndPrint" time="48.594">
+  <testcase name="clickEachNews" classname="testCases.TC_0004_ClickEachNewsAndPrint" time="52.424">
     <system-out><![CDATA[---------------------------------------------------------------------------
 Clicking each news and Verifying it:
 
@@ -230,48 +230,29 @@ Be.Cognizant - Home
 
 opening news:4
 Title of News :4 Before Click:
-Cognizant Flowsource™ will fuel the next generation of enterprise software engineering
+Cognizant shines at the Times Group Global Business Summit (GBS)
 
 
 Title of News :4 After Click:
-Cognizant Flowsource™ will fuel the next generation of enterprise software engineering
+Cognizant shines at the Times Group Global Business Summit (GBS)
 Correct: Title Matching After open News Also:
 
 
 News Content of :4th News:
-Modern software engineering is often a Herculean undertaking. Even with well-defined objectives and processes, software projects by their very nature run the risk of getting derailed and productivity is getting harder to sustain. Emerging technology, competition and customer expectations require organizations to achieve a pace of change that is often unattainable due to the increasing complexity of their technology estates, fractured use of modern engineering processes, and legacy debt and costs. 
- The Software Development Life Cycle (SDLC) provides a framework that enables organizations to ship quality software faster while also reducing cost. It lays a foundation for clarity around a software project’s goals, planning activities and deliverables, identifying and minimizing risks, vetting software quality, managing customer expectations, and maintaining the product once it’s deployed.
- We are now able to use Cognizant Flowsource™ to accelerate the end-to-end SDLC and address completely new automation opportunities. Cognizant Flowsource is our software development lifecycle management platform, offering a unified developer experience powered by automation and generative AI (gen AI) that will sustain next generation engineering.
- “In the gen AI era, the pursuit of innovation is creating a hotbed 
-of opportunity for organizations to work faster — but working faster 
-must be sustainable, and ‘more code’ shouldn’t mean ‘more problems.’ Cognizant Flowsource addresses this growing need and helps organizations improve quality and consistency across development. 
-The result is better time to market for new and innovative products 
-and services as well as improvements in scale that can enable 
-these enterprises to stay ahead of competition.” 
-- Prasad Sankaran, Head of Software & Platform Engineering
-  “As a center of gravity for a modern delivery model, Cognizant Flowsource integrates all stages of the SDLC, from design to launch, providing 
-a unified engineering platform connecting the work of all stakeholders 
-and the development community for greater productivity and control. 
-It incorporates digital assets and tools to help cross-functional 
-engineering teams deliver better outcomes, 
-faster with increased control and transparency.” 
-- Pramod Bijani, Global Practice Leader 
-for Digital Engineering and Digital Experience
- The platform delivers meaningful business benefits for clients, including:
-Simplify, automate and bring intelligence to all stages of the SDLC with generative AI tooling, including copilots.
-Accelerate the work process with included plugins on this extendable platform, and the ability to easily add third party plugins.
-Bring consistency and quickness to developer work with self-service software and environment provisioning utilizing pre-configured templates.
-Quality assurance with integrated, automated quality engineering and assurance throughout the process.
-Ensure transparency with automated documentation and knowledge management within a single portal including component store experience across all teams.
-A holistic view of engineering operations across the entire SDLC.
-Track effectiveness and issues across engineering and business, with executive clarity on business impact.
-  Cognizant Flowsource complements our platform ecosystem — Cognizant Neuro® AI, Cognizant Neuro® IT Operations and Cognizant Skygrade™ — all designed to help enterprises manage the complexity of their IT environments and modernize towards a cloud-native architecture.
-  The below resources explain the value Cognizant Flowsource can bring to our clients as we collectively embrace the power of gen AI. Please connect with your SLS for Cognizant SPE to discuss and support client opportunities.
-Cognizant Flowsource on Cognizant.com
-Press release
-Client pitch deck
-FAQs (coming soon)
-Like, comment and repost the Cognizant LinkedIn announcement
+The ET Now Global Business Summit 2024 brought together some of the world’s leading CEOs, heads of state and policymakers to deliberate on and discuss critical issues of our time and map the future. The theme of the summit was Disruption, Development and Diversification.
+ Addressing the summit in his keynote, our CEO, Ravi Kumar spoke on Generative AI's power to shape the future of work and later in the day spoke at a panel discussion on the topic Fissures, Faultlines and Future.
+ Highlights from Ravi's keynote:
+  “Cognizant is at the forefront of leveraging technological advancements. Generative AI represents a departure from past technological shifts, fundamentally altering the landscape of jobs, skills, tasks, and occupations while fostering upward social mobility. Unlike its predecessors, Generative AI follows a steeper S-curve trajectory, significantly transforming various industries,” he said. 
+
+Comparing the Generative AI’s impact to historical computing changes, Ravi added, “Businesses must adapt by reorganizing operations, prioritizing safety, trust, and equity to ensure a fair and inclusive future. Its rapid diffusion and bidirectional understanding between humans and machines mirror past technological revolutions.”
+ He concluded by highlighting Cognizant’s focus on technological continuity, emphasizing the imperative for businesses to adapt their strategies alongside advancing technologies to cultivate a prosperous and inclusive future workforce.
+  Ravi also participated in a panel discussion on the topic Fissures, Faultlines and Future – In Search of an Equilibrium, along with other eminent industry leaders including Bill Winters, CEO, Standard Chartered, Jenny Johnson, President and CEO, Franklin Templeton, Rizwan Sajan, Founder and Chairman, Danube Group and Suneeta Reddy, MD, Apollo Hospitals. The leaders discussed some of the most critical problems faced by the world today, the role of AI, and the growth roadmap for India.
+   Before concluding the day, Ravi met India’s Hon'ble Prime Minister, Narendra Modi and Hon’ble PM of Guyana, H.E Brigadier (Retd.), Indian ministers and industry leaders from across the world.
+  To watch the full recording of the summit, click here.
+Timestamps:
+Ravi’s keynote: 2:36 (mins) till 2:52 (mins)
+Panel discussion: 3:04 (mins) till 3:33 (mins)
+ To know more about GBS, click here.
 
 
 News Successfully written in text file inside testData Folder:
@@ -296,7 +277,7 @@ InCorrect: Title Not Matching After open News Also:
 News Content of :5th News:
 January 21
 Cognizant at the WEF Economic Meeting: Elevating Cognizant’s stature on the world stage
-TI am so thrilled with everything our company accomplished at the World Economic Forum (WEF) Annual Meeting. This theme of gen AI as an equalizer played out in nearly every conversation I had in Davos—and I had scores of them. Our leadership team had more than 100 individual client and partner meetings over four days and (as conveyed by the photos in this message) hosted more than 130 guests at events in our Cognizant lounge. These 230-plus connections will drive future commercial opportunities, partnerships, and collaborations. I can’t think of a more productive way to build so many relationships so rapidly than through the activations the team executed at WEF. 
+I am so thrilled with everything our company accomplished at the World Economic Forum (WEF) Annual Meeting. This theme of gen AI as an equalizer played out in nearly every conversation I had in Davos—and I had scores of them. Our leadership team had more than 100 individual client and partner meetings over four days and (as conveyed by the photos in this message) hosted more than 130 guests at events in our Cognizant lounge. These 230-plus connections will drive future commercial opportunities, partnerships, and collaborations. I can’t think of a more productive way to build so many relationships so rapidly than through the activations the team executed at WEF. 
  WEF consists of far more than the January annual meeting in Switzerland. It’s a year-long flywheel of activity. The panel on which I participated was the culmination of a year-long collaboration among regulators, economists, academics, and industry leaders. Although we entered the conversation about halfway through the year, we quickly established ourselves as thought leaders. I believe our year-long engagement as a WEF strategic partner will be a virtuous cycle that will enhance our reputation and open new doors for our company.
  You can catch up on the stream of images and recaps available on Be.Cognizant. 
 
@@ -312,7 +293,7 @@ Be.Cognizant - Home
 
 ]]></system-out>
   </testcase>
-  <testcase name="appsAndTools" classname="testCases.TC_0005_AppsAndTools" time="6.934">
+  <testcase name="appsAndTools" classname="testCases.TC_0005_AppsAndTools" time="7.09">
     <system-out><![CDATA[---------------------------------------------------------------------------
 Total Apps And Tools Available:
 Total Apps and Tools: 9
