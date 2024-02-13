@@ -131,6 +131,3 @@ pom.xml:right click and run as Maven Test.
 ## Author
 
 - Rishabh Yadav(2304092)
-- Vishal Tyagi(2303764)
-- Prince Kumar(2304002)
-- Sai Sathvik (2303742)
